@@ -22,3 +22,4 @@ WHERE birth < 0 OR death < 0 OR population < 0 OR doctors < 0 OR hospital_beds <
 SELECT settlement, year, birth, death 
 FROM public."data"
 WHERE birth > 50 OR death > 30;
+
